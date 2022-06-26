@@ -1,5 +1,4 @@
 function capitalize(str) {
-  console.log(str);
   if (typeof str !== 'string') return 'Please enter a string';
 
   str = str.split("");
