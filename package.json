@@ -1,0 +1,27 @@
+{
+  "name": "tdd-jest-practice",
+  "version": "1.0.0",
+  "description": "Unit test project using Jest framework",
+  "private": true,
+  "scripts": {
+    "test": "jest --watchAll",
+    "prettier-watch": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattxmade/tdd-jest-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattxmade/tdd-jest-practice/issues"
+  },
+  "homepage": "https://github.com/mattxmade/tdd-jest-practice#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.2",
+    "jest": "^28.1.1",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
