@@ -1,4 +1,3 @@
-3).
 A calculator object that contains functions for the basic operations: 
     add, subtract, divide, and multiply. 
     
