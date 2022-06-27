@@ -17,7 +17,4 @@ function analyseArray(array) {
   };
 }
 
-const object = analyseArray([1, 8, 3, 4, 2, 6]);
-console.log(object);
-
 module.exports = analyseArray;
